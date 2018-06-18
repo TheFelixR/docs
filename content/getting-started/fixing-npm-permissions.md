@@ -36,7 +36,7 @@ To minimize the chance of permissions errors, you can configure npm to use a dif
 
 3. Open or create a `~/.profile` file and add this line:
 
-        export PATH=~/.npm-global/bin:$PATH
+        export PATH="~/.npm-global/bin:$PATH"
 
 4. Back on the command line, update your system variables:
 
